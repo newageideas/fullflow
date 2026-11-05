@@ -28,3 +28,7 @@ npm run build
 # Start production server
 npm run start
 ```
+
+## Vercel production
+
+Vite builds the static front end. Serverless handlers in `api/lead.js` and `api/chat.js` power the form and Flowie chat on Vercel (Express in `server.ts` stays for local `npm run dev` / `npm start`). `vercel.json` rewrites SPA paths like `/inspection` and `/qr` to `index.html`.
