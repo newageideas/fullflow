@@ -1,0 +1,8 @@
+{
+  "name": "Full Flow Mains and Drains",
+  "description": "Trilingual (English, Spanish, and Punjabi) residential plumbing application for Full Flow Mains and Drains serving Stanislaus County. Features a 14-point Home Safety Inspection booking, lead management, printable inspection checklists, and QR referral cards.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

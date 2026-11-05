@@ -1,0 +1,62 @@
+import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
+export const PrivacyPage: React.FC = () => {
+  useEffect(() => {
+    document.title = "Privacy Policy | Full Flow Mains and Drains";
+  }, []);
+
+  return (
+    <main className="wrap" style={{ padding: '30px 18px', maxWidth: '760px' }}>
+      <p>
+        <Link to="/">← Full Flow Mains and Drains</Link>
+      </p>
+      <h1>Privacy Policy</h1>
+      <p>
+        <i>Last updated: November 3, 2026</i>
+      </p>
+
+      <h2>What we collect</h2>
+      <p>
+        When you use our request form we collect your name, phone number, city, the
+        service you need, your preferred contact time, any notes you write, your
+        language, how you found us (for example a QR code), and — if you check the
+        box — a record of your consent to receive texts, including the time,
+        wording, IP address, and browser type.
+      </p>
+
+      <h2>How we use it</h2>
+      <p>
+        Only to contact you about your request, schedule service, and send
+        appointment or "on my way" messages if you agreed. We do not sell or rent
+        your information, and we do not share your mobile number or text consent
+        with third parties or affiliates for marketing.
+      </p>
+
+      <h2>Text messages</h2>
+      <p>
+        Texting is optional and not required to get service. Message frequency
+        varies by request. Msg &amp; data rates may apply. Reply STOP to opt out
+        or HELP for help.
+      </p>
+
+      <h2>Storage</h2>
+      <p>
+        Requests are stored in a private storage system on our website host and
+        are only accessible to Full Flow Mains and Drains. We keep requests only as
+        long as needed for service and records.
+      </p>
+
+      <h2>Your choices (California residents)</h2>
+      <p>
+        You may ask to see or delete the information you gave us by calling or
+        texting 209-779-7300.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Full Flow Mains and Drains · <a href="tel:+12097797300">209-779-7300</a>
+      </p>
+    </main>
+  );
+};
